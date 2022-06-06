@@ -1,63 +1,119 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-    <title>Madiemtja F. Movundlela</title>
-</head>
-<body>
-    <div class="container">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#About">About</a>
-                </li>
-                 <li>
-                    <a href="#Skills">Skills I have</a>
-                </li>
-                 <li>
-                    <a href="#Projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#Contacts">Contacts</a>
-                </li>
-            </ul>
-        </nav>
-      
-        <section id="about">
-            <h1>About Me</h1>
-            <h4>Hi, My name is Madimetja, a web development student</h4>
-            <p>I am a solution-driven person looking to contribute to a collaborative work environment while
-increasing my knowledge. I have experience as a web developer working as an intern for a
-marketing agency, which has helped me develop technical capabilities in web development
-and working as a team. I have proven my ability to prioritize important work and meet
-deadlines. I am seeking an entry-level role as a full-stack web developer to further my career
-goals.</p>
-        </section>
-          <section id="skills">
-            <h1>Skills</h1>
-            <ul>
-                <li>HTML | CSS | JavaScript</li>
-                <li>PHP | Laravel</li>
-                <li>Version Control(.git)</li>
-                <li>Web Hosting</li>
-            </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="styles-test.css" />
+    <title>Madimetja F. Movundlela</title>
+  </head>
+  <body>
+    <header class="grid" id="header">
+      <div class="bg-img"></div>
+     <img src="img/dp.png" alt="display-picture" id="dp" class="dipslay-picture">
+      <h1>Hi, I am Madimetja</h1>
+      <p>I design and develop websites for a living.</p>
+      <a href="#section-a" class="btn">Read More</a>
+    </header>
+
+    <main id="main">
+      <!--Section A-->
+      <section id="section-a" class="grid">
+        <div class="content-wrap">
+ 
+          <h2 class="content-title">Biography</h2>
+          <p>
+            I am a solution-driven person looking to contribute to a
+            collaborative work environment while increasing my knowledge. I have
+            experience as a web developer working as an intern for a marketing
+            agency, which has helped me develop technical capabilities in web
+            development and working as a team. I have proven my ability to
+            prioritize important work and meet deadlines. I am seeking an
+            entry-level role as a full-stack web developer to further my career
+            goals.
+          </p>
+        </div>
+      </section>
+
+      <!--Section B-->
+      <section id="section-b" class="grid">
+        <ul class="high-ul">
+          <li>
+            <div class="card">
+              <i class="fas fa-database fa-5x icon"></i>
+              <div class="card-content">
+                <h2 class="card-title">Skills</h2>
+                <ul class="low-ul">
+                  <li>HTML | CSS | JavaScript</li>
+                  <li>PHP | Laravel</li>
+                  <li>Version Control(.git)</li>
+                  <li>Web Hosting</li>
+                </ul>
             
-        </section>
-        <section id="projects">
-            <h1>Projects</h1>
-        </section>
-        <footer>
-            <p>Author: Madimetja F. Movundlela<br>
-  <a href="mailto:hege@example.com">fmvundlela@gmail.com</a><br>
-            0813080308<br>
-            GitHub : @Madimetja94</p>
-        </footer>
-    </div>
-  
-</body>
+              </div>
+            </div>
+          </li>
+           <li>
+            <div class="card">
+            <i class="fas fa-briefcase fa-5x icon"></i>
+              <div class="card-content">
+                <h3 class="card-title">Experience</h3>
+               <table class="table">
+                 <tr>
+                    <td>Company: </td>
+                   <td>Ince pty ltd</td>
+                 </tr>
+                 <tr>
+                   <td>Duration: </td>
+                   <td>2020-2020(4 months internship)</td>
+                 </tr> 
+                 <tr><td>Position: </td><td>Intern Full-stack web developer</td></tr>
+                 <tr><td>Role: </td><td>Intern Full-stack web developer</td></tr>
+               </table>
+              </div>
+            </div>
+          </li>
+          <li>
+          <li>
+            <div class="card">
+              <i class="fas fa-tasks fa-5x icon"></i>
+              <div class="card-content">
+                <h3 class="card-title">Projects</h3>
+                <p>
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!--Section C-->
+      <section id="section-c" class="grid">
+        <div class="content-wrap">
+          <h2 class="content-title">Contacts Me</h2>
+          <a href="mailto:fvundlela@gmail.com"> <i class="fas fa-envelope fa-lg fa-5x contact-icon"></i></a>
+         
+          <a href="tel:+27813080308"><i class="fas fa-phone fa-lg fa-5x contact-icon"></i></a>
+        </div>
+      </section>
+
+      <!--Section D-->
+      <section id="section-d" class="grid">
+        <div class="box">
+          <h2 class="content-title">Socials</h2>
+          <a href="https://github.com/Madimetja94"  ><i class="fab fa-github fa-lg fa-5x contact-icon"></i></a>
+          <a href="http://"><i class="fab fa-linkedin fa-5x contact-icon" ></i></a>
+        </div>
+        <div class="box">
+          <h2 class="content-title">References</h2>
+          <p>
+            Available on request.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer id="footer" class="grid">
+      <div>Madimetja F. Movundlela</div>
+    </footer>
+  </body>
 </html>
