@@ -73,16 +73,17 @@ p{
 
 #section-a{
     background: rgb(36, 65, 75);
-   
 }
-
 #section-a .content-wrap{
     padding: 0.2em;
 }
-
+#section-b{
+    background:rgb(32, 20, 31);
+}
 #section-b .icon{
     padding-top: 20px;
     padding-bottom: 0;
+
 }
 
 #section-b ul{
@@ -95,16 +96,60 @@ p{
    margin-left: auto;
    margin-right: auto;
 }
-
-#section-d{
-
+#section-c{
+    background: rgb(177, 206, 177);
 }
-
-#section-d .contact-icon{
-    padding: 5px;
-    
+#section-c a{
+    text-decoration: none;
+}
+#section-d{
+    background: rgb(177, 206, 177);
+}
+#section-d a{
+    text-decoration: none;
+}
+.contact-icon{
+    padding: 20px;  
 }
 
 #section-d a{
     text-decoration: none;
+}
+
+#footer{
+    padding: 2em;
+    background: black;
+    color:white;
+    text-align: center;
+}
+
+@media(min-width:700px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .welcome{
+        grid-column: span 5;
+    }
+    #section-c .box,.footer,.content-wrap{
+        grid-column: 1/4;
+    }
+
+    #section-a .biography{
+        columns: 2;
+        column-gap: 3em;
+       
+    }
+    #section-a .biography p{
+        padding-top: 0;
+    }
+
+    #section-b{  
+        grid-column: 3/5;
+        justify-content: center;
+    }
+    footer .name{
+        grid-column: 1/4;
+    }
+   
 }
