@@ -135,13 +135,10 @@ p{
         grid-column: 1/4;
     }
 
-    #section-a .biography{
-        columns: 2;
-        column-gap: 3em;
-       
-    }
     #section-a .biography p{
         padding-top: 0;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
     #section-b{  
