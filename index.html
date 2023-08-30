@@ -10,6 +10,19 @@
   </head>
   <body>
     <header class="grid" id="header">
+      <nav class="navbar">
+    <div class="navbar-brand">
+      <span class="brand-name">Madimetja</span>
+    </div>
+    <div class="navbar-links">
+      <a href="#section-a">Biography</a>
+      <a href="#section-b">Skills & Experience</a>
+      <a href="#section-c">Contact & Socials</a>
+    </div>
+    <div class="navbar-toggle">
+      <span class="toggle-icon"></span>
+    </div>
+  </nav>
      <div class="welcome"> <div><div class="bg-img"></div>
      <div><img src="img/dp.png" alt="display-picture" id="dp" class="dipslay-picture">
      </div>
@@ -45,7 +58,6 @@
                 <h2 class="card-title">Skills</h2>
                 <ul class="low-ul">
                   <li>HTML | CSS | JavaScript</li>
-                  <li>PHP | Laravel</li>
                   <li>Version Control(.git)</li>
                   <li>Web Hosting</li>
                 </ul>
@@ -86,7 +98,7 @@
       <!--Section C-->
       <section id="section-c" class="grid">
         <div class="content-wrap">
-          <h2 class="content-title">Contacts Me</h2>
+          <h2 class="content-title">Contact Me</h2>
           <a href="mailto:kokimovundlela@gmail.com"> <i class="fas fa-envelope fa-lg fa-5x contact-icon"></i></a>
           <a href="tel:+27813080308"><i class="fas fa-phone fa-lg fa-5x contact-icon"></i></a>
         </div> <div class="box">
@@ -103,5 +115,15 @@
     <footer id="footer" class="grid">
       <div class="name">Madimetja F. Movundlela</div>
     </footer>
+     <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const toggleIcon = document.querySelector(".toggle-icon");
+      const navbar = document.querySelector(".navbar");
+
+      toggleIcon.addEventListener("click", function () {
+        navbar.classList.toggle("active");
+      });
+    });
+    </script>
   </body>
 </html>
