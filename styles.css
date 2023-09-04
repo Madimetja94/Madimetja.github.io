@@ -97,13 +97,13 @@ p{
    margin-right: auto;
 }
 #section-c{
-    background: rgb(177, 206, 177);
+    background: rgb(36, 65, 75);
 }
 #section-c a{
     text-decoration: none;
 }
 #section-d{
-    background: rgb(177, 206, 177);
+    background: rgb(36, 65, 75);
 }
 #section-d a{
     text-decoration: none;
@@ -238,4 +238,84 @@ p{
   .navbar.active .navbar-links {
     display: flex;
   }
+}
+.icon, .contact-icon, .toggle-icon::before, .toggle-icon::after {
+    color: white;
+}
+.navbar-brand {
+    margin-right: 10px;
+}
+
+.navbar-links {
+    margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+    .navbar-links {
+        display: flex;
+        align-items: center;
+    }
+    .navbar-links a {
+        margin: 0 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    #section-a .biography p {
+        padding: 0 10px; 
+        text-align: left;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 360px) {
+    #section-a .biography p {
+        padding: 0 15px;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 567px) {
+    #section-a .biography p {
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 768px) {
+    #section-a .biography p {
+        padding: 0 30px;
+    }
+}
+@media (max-width: 320px) {
+    #section-b table td:nth-child(1),
+    #section-b table td:nth-child(2),
+    #section-b table td:nth-child(3) {
+        font-weight: bold;
+        text-align: left;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 360px) {
+    #section-b table td:nth-child(1),
+    #section-b table td:nth-child(2),
+    #section-b table td:nth-child(3) {
+        font-weight: bold;
+        text-align: left;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 567px) {
+    #section-b table td:nth-child(1),
+    #section-b table td:nth-child(2),
+    #section-b table td:nth-child(3) {
+        font-weight: bold;
+        text-align: left;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 768px) {
+    #section-b table td:nth-child(1),
+    #section-b table td:nth-child(2),
+    #section-b table td:nth-child(3) {
+        font-weight: bold; 
+        text-align: left; 
+    }
 }
