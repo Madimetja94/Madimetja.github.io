@@ -1,154 +1,156 @@
-body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background: rgb(36, 31, 31);
-    color: beige;
-    font-size: 1.1em;
-    line-height: 1.5;
-    text-align: center;
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(36, 31, 31);
+  color: beige;
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
 }
 
 img {
-    display: block;
-    width: 100%;
-    height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-h1, h2, h3{
-    margin: 0;
-    padding: 1em 0;
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 1em 0;
 }
 
-p{
-    margin: 0;
-    padding: 1em 0;
+p {
+  margin: 0;
+  padding: 1em 0;
 }
 
-.btn{
-    background: rgb(31, 27, 27);
-    border: 1px solid gray;
-    padding: 1em 2em;
-    display: inline-block;
-    text-decoration: none;
-    color: beige;
-    margin: .5em;
+.btn {
+  background: rgb(31, 27, 27);
+  border: 1px solid gray;
+  padding: 1em 2em;
+  display: inline-block;
+  text-decoration: none;
+  color: beige;
+  margin: 0.5em;
 }
 
 .btn:hover {
-    background: gray;
-    color: black;
+  background: gray;
+  color: black;
 }
-.dipslay-picture{
-    border-radius: 50%;
-    height:25%;
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-
+.dipslay-picture {
+  border-radius: 50%;
+  height: 25%;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
-#header{
-    min-height: 450px;
-    color: beige;
+#header {
+  min-height: 450px;
+  color: beige;
 }
-#header .content-wrap{
-    padding: 0.2em;
+#header .content-wrap {
+  padding: 0.2em;
 }
-#header h1{
-    padding-top: 1px;
-    padding-bottom: 1px;
+#header h1 {
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
-#header .bg-img{
-    background: rgb(31, 27, 27) url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80);
-    position: absolute;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-     margin: 0;
-    width: 100%;
-    height: 600px;
-    z-index: -1;
-    opacity: 0.3;
-}
-
-#section-a{
-    background: rgb(36, 65, 75);
-}
-#section-a .content-wrap{
-    padding: 0.2em;
-}
-#section-b{
-    background:rgb(32, 20, 31);
-}
-#section-b .icon{
-    padding-top: 20px;
-    padding-bottom: 0;
-
+#header .bg-img {
+  background: rgb(31, 27, 27)
+    url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80);
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+  opacity: 0.3;
 }
 
-#section-b ul{
-    list-style: none;
+#section-a {
+  background: rgb(36, 65, 75);
+}
+#section-a .content-wrap {
+  padding: 0.2em;
+}
+#section-b {
+  background: rgb(32, 20, 31);
+}
+#section-b .icon {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+#section-b ul {
+  list-style: none;
   padding-top: 0;
   padding-bottom: 0;
-    margin: 0;
+  margin: 0;
 }
-#section-b table{
-   margin-left: auto;
-   margin-right: auto;
+#section-b table {
+  margin-left: auto;
+  margin-right: auto;
 }
-#section-c{
-    background: rgb(36, 65, 75);
+#section-c {
+  background: rgb(36, 65, 75);
 }
-#section-c a{
-    text-decoration: none;
+#section-c a {
+  text-decoration: none;
 }
-#section-d{
-    background: rgb(36, 65, 75);
+#section-d {
+  background: rgb(36, 65, 75);
 }
-#section-d a{
-    text-decoration: none;
+#section-d a {
+  text-decoration: none;
 }
-.contact-icon{
-    padding: 20px;  
-}
-
-#section-d a{
-    text-decoration: none;
+.contact-icon {
+  padding: 20px;
 }
 
-#footer{
-    padding: 2em;
-    background: black;
-    color:white;
-    text-align: center;
+#section-d a {
+  text-decoration: none;
 }
 
-@media(min-width:700px){
-    .grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .welcome{
-        grid-column: span 5;
-    }
-    #section-c .box,.footer,.content-wrap{
-        grid-column: 1/4;
-    }
+#footer {
+  padding: 2em;
+  background: black;
+  color: white;
+  text-align: center;
+}
 
-    #section-a .biography p{
-        padding-top: 0;
-        padding-left: 50px;
-        padding-right: 50px;
-    }
+@media (min-width: 700px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .welcome {
+    grid-column: span 5;
+  }
+  #section-c .box,
+  .footer,
+  .content-wrap {
+    grid-column: 1/4;
+  }
 
-    #section-b{  
-        grid-column: 3/5;
-        justify-content: center;
-    }
-    footer .name{
-        grid-column: 1/4;
-    }
-   
+  #section-a .biography p {
+    padding-top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  #section-b {
+    grid-column: 3/5;
+    justify-content: center;
+  }
+  footer .name {
+    grid-column: 1/4;
+  }
 }
 .navbar {
   display: flex;
@@ -224,7 +226,7 @@ p{
     transform: rotate(-45deg) translate(5px, -5px);
   }
 
-   .navbar-links {
+  .navbar-links {
     display: none;
     flex-direction: column;
     width: 100%;
@@ -239,83 +241,102 @@ p{
     display: flex;
   }
 }
-.icon, .contact-icon, .toggle-icon::before, .toggle-icon::after {
-    color: white;
+.icon,
+.contact-icon,
+.toggle-icon::before,
+.toggle-icon::after {
+  color: white;
 }
 .navbar-brand {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .navbar-links {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 @media (min-width: 768px) {
-    .navbar-links {
-        display: flex;
-        align-items: center;
-    }
-    .navbar-links a {
-        margin: 0 15px;
-    }
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  .navbar-links a {
+    margin: 0 15px;
+  }
 }
 
 @media (max-width: 320px) {
-    #section-a .biography p {
-        padding: 0 10px; 
-        text-align: left;
-    }
+  #section-a .biography p {
+    padding: 0 10px;
+    text-align: left;
+  }
 }
 
 @media (min-width: 321px) and (max-width: 360px) {
-    #section-a .biography p {
-        padding: 0 15px;
-    }
+  #section-a .biography p {
+    padding: 0 15px;
+  }
 }
 
 @media (min-width: 361px) and (max-width: 567px) {
-    #section-a .biography p {
-        padding: 0 20px;
-    }
+  #section-a .biography p {
+    padding: 0 20px;
+  }
 }
 
 @media (min-width: 568px) and (max-width: 768px) {
-    #section-a .biography p {
-        padding: 0 30px;
-    }
+  #section-a .biography p {
+    padding: 0 30px;
+  }
 }
 @media (max-width: 320px) {
-    #section-b table td:nth-child(1),
-    #section-b table td:nth-child(2),
-    #section-b table td:nth-child(3) {
-        font-weight: bold;
-        text-align: left;
-    }
+  #section-b table td:nth-child(1),
+  #section-b table td:nth-child(2),
+  #section-b table td:nth-child(3) {
+    font-weight: bold;
+    text-align: left;
+  }
 }
 
 @media (min-width: 321px) and (max-width: 360px) {
-    #section-b table td:nth-child(1),
-    #section-b table td:nth-child(2),
-    #section-b table td:nth-child(3) {
-        font-weight: bold;
-        text-align: left;
-    }
+  #section-b table td:nth-child(1),
+  #section-b table td:nth-child(2),
+  #section-b table td:nth-child(3) {
+    font-weight: bold;
+    text-align: left;
+  }
 }
 
 @media (min-width: 361px) and (max-width: 567px) {
-    #section-b table td:nth-child(1),
-    #section-b table td:nth-child(2),
-    #section-b table td:nth-child(3) {
-        font-weight: bold;
-        text-align: left;
-    }
+  #section-b table td:nth-child(1),
+  #section-b table td:nth-child(2),
+  #section-b table td:nth-child(3) {
+    font-weight: bold;
+    text-align: left;
+  }
 }
 
 @media (min-width: 568px) and (max-width: 768px) {
-    #section-b table td:nth-child(1),
-    #section-b table td:nth-child(2),
-    #section-b table td:nth-child(3) {
-        font-weight: bold; 
-        text-align: left; 
-    }
+  #section-b table td:nth-child(1),
+  #section-b table td:nth-child(2),
+  #section-b table td:nth-child(3) {
+    font-weight: bold;
+    text-align: left;
+  }
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.welcome,
+#section-a,
+#section-b,
+#section-c,
+#section-d {
+  padding-top: 70px;
 }
