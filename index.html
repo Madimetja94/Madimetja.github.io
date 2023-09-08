@@ -145,6 +145,10 @@
         const toggleIcon = document.querySelector(".toggle-icon");
         const navbar = document.querySelector(".navbar");
 
+        function closeMenu() {
+          navbar.classList.remove("active");
+        }
+
         toggleIcon.addEventListener("click", function () {
           navbar.classList.toggle("active");
         });
@@ -152,8 +156,17 @@
         const navLinks = document.querySelectorAll(".navbar-links a");
         navLinks.forEach(function (link) {
           link.addEventListener("click", function () {
-            navbar.classList.remove("active");
+            closeMenu();
           });
+        });
+
+        document.addEventListener("click", function (event) {
+          if (
+            !navbar.contains(event.target) &&
+            navbar.classList.contains("active")
+          ) {
+            closeMenu();
+          }
         });
       });
     </script>
