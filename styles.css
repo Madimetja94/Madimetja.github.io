@@ -240,6 +240,9 @@ p {
   .navbar.active .navbar-links {
     display: flex;
   }
+    .navbar.active + #main .content-wrapper {
+    margin-top: 70px; /* Adjust this margin to match your header height */
+  }
 }
 .icon,
 .contact-icon,
