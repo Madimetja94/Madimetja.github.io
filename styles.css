@@ -60,7 +60,7 @@ p {
   padding-bottom: 1px;
 }
 #header .bg-img {
-  background: rgb(31, 27, 27)
+  background: rgb(36, 31, 31)
     url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80);
   position: absolute;
   background-size: cover;
@@ -157,7 +157,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 1em;
-  background-color: rgb(31, 27, 27);
+  background-color: rgb(36, 31, 31);
   position: relative;
 }
 
@@ -230,7 +230,7 @@ p {
     display: none;
     flex-direction: column;
     width: 100%;
-    background-color: rgb(31, 27, 27);
+    background-color: rgb(36, 31, 31);
     position: absolute;
     top: 70px;
     left: 0;
@@ -252,7 +252,7 @@ p {
 }
 
 .navbar-links {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 @media (min-width: 768px) {
