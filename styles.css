@@ -150,6 +150,37 @@ p {
     padding-right: 50px;
   }
 
+ .skills {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.skill-header {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.skills-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.skill-set {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-card {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 0.5rem;
+}
+
   #section-b {
     grid-column: 3/5;
     justify-content: center;
@@ -347,5 +378,5 @@ p {
 #section-b,
 #section-c,
 #section-d {
-  padding-top: 70px;
+  padding-top: 45px;
 }
