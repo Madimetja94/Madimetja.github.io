@@ -378,7 +378,10 @@ p {
 #section-b,
 #section-c,
 #section-d {
-  padding-top: 45px;
+  padding-top: 5px;
+}
+.welcome{
+   padding-top: 80px;
 }
 @media (max-width: 1200px) {
   .icon-card {
